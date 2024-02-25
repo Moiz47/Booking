@@ -1,0 +1,17 @@
+###
+
+POST http://localhost:3000/ticket HTTP/1.1
+content-type: application/json
+
+{
+    "seatNo": 40,
+    "status": "booked",
+    "user": {
+        "name": "Moiz",
+        "age": 28
+    }
+}
+
+###
+
+GET http://localhost:3000/ticket/65ad29048e6944576431d291
